@@ -75,6 +75,11 @@ shinyUI(fluidPage(theme = shinytheme("cerulean"),
                            h1("Try it out !"),
                            div(style = "font-size: 16px;",
                                p("\\( \\bullet \\) In the subsequent tabs, try out different variants of Barnsley Ferns and experience the process of getting a determininstic structure from completely random points.")
+                              ),
+                           
+                           h1("Acknowledgement"),
+                           div(style = "font-size: 16px;",
+                               p("I came across this concept in the book \\( \\textbf{Probability and Statistics}  \\) by \\( \\textit{Dr. Arnab Chakraborty} \\).")
                               )
                            ), # tabpanel 0
                   
